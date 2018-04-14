@@ -1,0 +1,44 @@
+/*Change color*/
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    25% { color: darkcyan;}
+    50% { color: lightblue; }
+    75% { color: pink; }
+    100% { color: red; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    25% { color: darkcyan;}
+    50% { color: lightblue; }
+    75% { color: pink; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    25% { color: darkcyan;}
+    50% { color: lightblue; }
+    75% { color: pink; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    25% { color: darkcyan;}
+    50% { color: lightblue; }
+    75% { color: pink; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    25% { color: darkcyan;}
+    50% { color: lightblue; }
+    75% { color: pink; }
+    100% { color: red; }
+}
+
+.header-content-inner h1{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}

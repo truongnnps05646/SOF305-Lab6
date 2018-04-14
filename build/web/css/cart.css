@@ -1,0 +1,61 @@
+.header-content h1{
+    line-height: 90px;
+}
+
+.table thead tr th{
+    color: dimgrey;
+    text-align: center;
+    font-size: 14px;
+}
+
+        
+        .sp-add{
+            width: 350px;
+            height: 320px;
+            border: 1px #8f8f8f solid;
+            border-radius: 3px;
+            margin: 10px;
+            float: left;
+            
+        }
+        .sp-main{
+            width: 82.5%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .sp-add:hover{
+            background-color: papayawhip;
+            border: 1px solid #1abc9c;
+            transition: all 0.3s;
+        }
+        
+        .tensp{
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            font-size: 18px;
+        }
+        .img-sp{
+            margin-left: 23px;
+        }
+        .gia-sp{
+            text-align: center;
+            font-weight: bold;
+            color: red;
+            font-size: 19px;
+            margin-top: 10px;
+        }
+        .btn-1{
+            margin-left: 120px;
+        }
+
+        
+        .box-text{
+            width: 60%;
+            margin-bottom: 20px;
+        }
+        
+        #pre-form{
+            
+        }
